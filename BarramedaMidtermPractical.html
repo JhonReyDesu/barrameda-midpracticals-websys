@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>Pizza by the Slice</title>
+    
+  
+  </head>
+
+  <body>
+    <h3>Pizza by the Slice<h3>
+    
+    <form>
+      <section>
+        <h5>PERSONAL DETAILS</h5>
+      
+        <label for="Name">Name:</label></br>
+        <input type="text" id="Name" name="pname"></br>
+      
+        <label for="email">Email</label></br>
+        <input type="email" id="email" name="email"></br>
+
+        <label for="phone">Phone</label></br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{7,11}"></br>
+
+        <label for="age">Age</label></br>
+        <input type="number" id="age" name="age" pattern="numeric"></br>
+
+        <label for="Address">Adress</label></br>
+        <input type="text" id="Address" name="address"></br>
+      </section>
+	
+      <section>
+      	<h5>PIZZA SIZE</h5>
+	
+	<input type="radio" id="small" name="pizza-size" value="small">
+  	<label for="small">Small</label><br>
+	
+	<input type="radio" id="medium" name="pizza-size" value="medium" checked>
+  	<label for="medium">Medium</label><br>
+
+	<input type="radio" id="large" name="pizza-size" value="large">
+  	<label for="large">Large</label><br>
+
+	<input type="radio" id="xlarge" name="pizza-size" value="xlarge">
+  	<label for="xlarge">Extra Large</label><br>
+
+      </section>
+
+      <section>
+	<h5>CRUST TYPE</h5>
+
+	<select id="crusttype" name"crusttype">
+	  <option value="" disabled selected>-- Choose a crust --</option>
+	  <option value="thin">Thin Crust</option>
+	  <option value="thick">Thick Crust</option>
+	  <option value="stuffed">Stuffed Crust</option>
+	  <option value="gluten">Gluten-free Crust</option>
+	
+	</select>
+      </section>
+
+      </section>
+
+      <section>
+	<h5>SAUCE</h5>
+
+	
+      </section>
+
+      </section>
+
+      <section>
+	<h5>TOPPINGS</h5>
+	<h6><em>Cheese is always included in any order.</em></h6>
+
+	<input type="checkbox" id="topping-cheese" name="toppings" value="cheese" checked disabled>
+	<label for="topping-cheese">Cheese</label><br>
+
+	<input type="checkbox" id="topping-pepperoni" name="toppings" value="pepperoni">
+	<label for="topping-pepperoni">Pepperoni</label><br>
+
+	<input type="checkbox" id="topping-mushroom" name="toppings" value="mushroom">
+	<label for="topping-mushroom">Mushrooms</label><br>
+
+	<input type="checkbox" id="topping-onion" name="toppings" value="onion">
+	<label for="topping-onion">Onions</label><br>
+
+	<input type="checkbox" id="topping-bpepper" name="toppings" value="bpepper">
+	<label for="topping-bpepper">Bell Pepper</label><br>
+
+	<input type="checkbox" id="topping-olive" name="toppings" value="olive">
+	<label for="topping-olive">Olives</label><br>
+
+	<input type="checkbox" id="topping-bacon" name="toppings" value="bacon">
+	<label for="topping-bacon">Bacon</label><br>
+
+	<input type="checkbox" id="topping-papple" name="toppings" value="papple">
+	<label for="topping-papple" title="Warning: Pineapple on pizza is controversial!">Pineapples</label><br>
+
+      </section>
+
+      <section>
+        <h5>DELIVERY METHOD</h5>
+
+	<input type="radio" id="home" name="deliverymethod" value="home">
+  	<label for="home">Home Delivery</label><br>
+	
+	<input type="radio" id="pickup" name="deliverymethod" value="pickup">
+  	<label for="pickup">Pickup</label><br>
+	
+	<h5>DELIVERY ADDRESS</h5>
+	<h6>Required for Home Delivery</h6>
+
+	<input type="textarea" placeholder="Please enter your full address">
+
+      </section>
+      
+      <section>
+	<h5>PAYMENT OPTIONS</h5><br>
+	
+
+      </section>
+    </form>
+  </body>
+<!--:(-->
+</html>
